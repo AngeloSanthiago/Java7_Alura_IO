@@ -12,7 +12,7 @@ public class TesteEscrita {
 		OutputStream fos = new FileOutputStream("lorem2.txt");
 		Writer osw = new OutputStreamWriter(fos);
 		BufferedWriter bw = new BufferedWriter(osw);
-		
+		// linha de comentário
 		bw.write("Linha 1");
 		bw.newLine();
 		bw.newLine();
